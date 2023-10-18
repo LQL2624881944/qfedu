@@ -1,0 +1,78 @@
+20516:C 14 Oct 2023 16:32:44.939 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+20516:C 14 Oct 2023 16:32:44.939 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=20516, just started
+20516:C 14 Oct 2023 16:32:44.939 # Configuration loaded
+20516:S 14 Oct 2023 16:32:44.940 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+20516:S 14 Oct 2023 16:32:44.940 * monotonic clock: POSIX clock_gettime
+20516:S 14 Oct 2023 16:32:45.089 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+20516:S 14 Oct 2023 16:32:45.089 * Running mode=standalone, port=3680.
+20516:S 14 Oct 2023 16:32:45.089 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+20516:S 14 Oct 2023 16:32:45.089 # Server initialized
+20516:S 14 Oct 2023 16:32:45.089 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+20516:S 14 Oct 2023 16:32:45.090 * Ready to accept connections
+20516:S 14 Oct 2023 16:32:45.090 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 16:32:45.090 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 16:32:45.115 # Error condition on socket for SYNC: Connection refused
+20516:S 14 Oct 2023 16:32:46.096 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 16:32:46.097 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 16:32:46.097 * Non blocking connect for SYNC fired the event.
+20516:S 14 Oct 2023 16:32:46.097 * Master replied to PING, replication can continue...
+20516:S 14 Oct 2023 16:32:46.098 * Partial resynchronization not possible (no cached master)
+20516:S 14 Oct 2023 16:32:46.099 * Full resync from master: 66266515684e51469b89257743d8d844a9cc1d25:0
+20516:S 14 Oct 2023 16:32:46.125 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+20516:S 14 Oct 2023 16:32:46.125 * MASTER <-> REPLICA sync: Flushing old data
+20516:S 14 Oct 2023 16:32:46.125 * MASTER <-> REPLICA sync: Loading DB in memory
+20516:S 14 Oct 2023 16:32:46.127 * Loading RDB produced by version 6.2.7
+20516:S 14 Oct 2023 16:32:46.127 * RDB age 0 seconds
+20516:S 14 Oct 2023 16:32:46.127 * RDB memory usage when created 1.92 Mb
+20516:S 14 Oct 2023 16:32:46.127 # Done loading RDB, keys loaded: 0, keys expired: 0.
+20516:S 14 Oct 2023 16:32:46.127 * MASTER <-> REPLICA sync: Finished with success
+20516:S 14 Oct 2023 16:32:46.127 * Background append only file rewriting started by pid 20528
+20516:S 14 Oct 2023 16:32:46.171 * AOF rewrite child asks to stop sending diffs.
+20528:C 14 Oct 2023 16:32:46.171 * Parent agreed to stop sending diffs. Finalizing AOF...
+20528:C 14 Oct 2023 16:32:46.171 * Concatenating 0.00 MB of AOF diff received from parent.
+20528:C 14 Oct 2023 16:32:46.171 * SYNC append only file rewrite performed
+20528:C 14 Oct 2023 16:32:46.203 * AOF rewrite: 0 MB of memory used by copy-on-write
+20516:S 14 Oct 2023 16:32:46.303 * Background AOF rewrite terminated with success
+20516:S 14 Oct 2023 16:32:46.303 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+20516:S 14 Oct 2023 16:32:46.303 * Background AOF rewrite finished successfully
+20516:S 14 Oct 2023 17:44:35.763 # Connection with master lost.
+20516:S 14 Oct 2023 17:44:35.763 * Caching the disconnected master state.
+20516:S 14 Oct 2023 17:44:35.763 * Reconnecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:44:35.765 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:44:35.765 # Error condition on socket for SYNC: Connection refused
+20516:S 14 Oct 2023 17:44:36.252 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:44:36.252 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:44:36.260 # Error condition on socket for SYNC: Connection refused
+20516:S 14 Oct 2023 17:44:37.258 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:44:37.258 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:44:37.300 # Error condition on socket for SYNC: Connection refused
+20516:S 14 Oct 2023 17:44:38.265 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:44:38.265 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:44:38.265 # Error condition on socket for SYNC: Connection refused
+20516:S 14 Oct 2023 17:44:39.271 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:44:39.272 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:44:39.272 # Error condition on socket for SYNC: Connection refused
+20516:S 14 Oct 2023 17:44:40.277 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:44:40.278 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:44:40.301 # Error condition on socket for SYNC: Connection refused
+20516:S 14 Oct 2023 17:44:41.283 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:44:41.284 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:45:15.387 # Error condition on socket for SYNC: No route to host
+20516:S 14 Oct 2023 17:45:15.468 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:45:15.469 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:45:18.474 # Error condition on socket for SYNC: No route to host
+20516:S 14 Oct 2023 17:45:18.486 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:45:18.486 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:45:21.480 # Error condition on socket for SYNC: No route to host
+20516:S 14 Oct 2023 17:45:21.502 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:45:21.502 * MASTER <-> REPLICA sync started
+20516:S 14 Oct 2023 17:45:24.487 # Error condition on socket for SYNC: No route to host
+20516:S 14 Oct 2023 17:45:24.520 * Connecting to MASTER 192.168.44.140:3680
+20516:S 14 Oct 2023 17:45:24.520 * MASTER <-> REPLICA sync started
+20516:signal-handler (1697276725) Received SIGTERM scheduling shutdown...
+20516:S 14 Oct 2023 17:45:25.246 # User requested shutdown...
+20516:S 14 Oct 2023 17:45:25.246 * Calling fsync() on the AOF file.
+20516:S 14 Oct 2023 17:45:25.246 * Saving the final RDB snapshot before exiting.
+20516:S 14 Oct 2023 17:45:25.264 * DB saved on disk
+20516:S 14 Oct 2023 17:45:25.264 * Removing the pid file.
+20516:S 14 Oct 2023 17:45:25.265 # Redis is now ready to exit, bye bye...
